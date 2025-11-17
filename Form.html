@@ -1,0 +1,117 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+<style>
+    body{
+        background-color: aquamarine;
+        text-align: center; 
+        border-radius: 2px;
+    border-style:solid black;
+        padding: 20px;
+        margin: 20px;
+        
+          }
+             form  {
+      border: 3px solid blue;   
+      padding: 20px;          
+      width: 300px;           
+      margin: 50px auto;       
+      border-radius: 10px;      
+      background-color:whitesmoke;
+    }
+
+
+          
+         
+</style>
+<body>
+    <h2 style="background-color: aquamarine;">Registration Form</h2>
+
+    <form action="./About.html" method="get">
+        <div></div>
+        <!-- Text input -->
+         <label for="fname">User name</label>
+        <input type="text" placeholder="Enter name" maxlength="10" minlength="3" required><br><br>
+
+        <!-- Email input -->
+           <label for="email">Enter email id</label>
+        <input type="email" placeholder="Enter email" required><br><br>
+
+        <!-- Number input -->
+           
+           <label for="fname">Enter age</label>
+        <input type="number" placeholder="Enter age" required><br><br>
+
+        <!-- Phone number -->
+           <label for="Mobile ">ENter Phone Number</label>
+        <input type="tel" placeholder="Enter mobile number" required><br><br>
+
+        <!-- Password -->
+           <label for="fname">Enter Password</label>
+        <input type="password" placeholder="Enter password" required><br><br>
+
+        <!-- Date and Time -->
+        <input type="datetime-local" required><br><br>
+
+        <!-- Color Picker -->
+        <label for="color">Pick a color:</label>
+        <input type="color" id="color"><br><br>
+
+        <!-- File upload -->
+        <label for="file">Select file:</label>
+        <input type="file" id="file" required><br><br>
+
+        <!-- Gender Radio Buttons -->
+        <label>Gender:</label><br>
+        <input id="male" type="radio" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input id="female" type="radio" name="gender" value="Female" required>
+        <label for="female">Female</label>
+
+        <input id="third" type="radio" name="gender" value="Other" required>
+        <label for="third">Other</label><br><br>
+
+        <!-- Skills Checkboxes -->
+        <label>Select your skills:</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label><br><br>
+
+        <!-- Dropdown -->
+        <label for="graduation">Select your Graduation:</label>
+        <select id="graduation" name="graduation" required>
+            <option value="">-- Select --</option>
+            <option value="BSc">B.Sc</option>
+            <option value="BCA">BCA</option>
+            <option value="BScCS">B.Sc CS</option>
+            <option value="BScBiotech">B.Sc Bio Tech</option>
+        </select><br><br>
+        <label for="Select your city">Select your city</label>
+        <select name="city" id="">
+            <option value="delhi">delhi</option>
+               <option value="Udankhedi">udhankhedi</option>
+                  <option value="pachore">Pachore</option>
+                     <option value="sarangpur">Sarangpur</option>
+        </select><br><br>
+
+        <!-- Submit Button -->
+    
+        <textarea name="feedback"id="22"placeholder="PLease give your feedback hear"></textarea><br>
+
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
+
