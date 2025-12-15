@@ -1,0 +1,673 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+*{
+margin: 0;
+padding: 0;
+  font-family: "Miniver", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+  
+
+  
+    /* background-color: rgb(0, 0, 33); */
+        /* color: white; */
+    
+    .pink{
+    color: #e76b4f;
+    }
+    header{
+      position: sticky;
+      top: 0px;
+    }
+    .dw{
+        font-size: 20px;
+        padding: 10px 30px;
+             color:rgb(57, 57, 138);
+             background-color:yellow;
+    }
+nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+       background-color: rgb(47, 47, 87);
+       
+       
+}
+nav ul{
+
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+   nav ul li a:hover{
+    
+        
+        color:rgb(153, 153, 226) ;
+        font-size: 1.0rem;
+      }
+.porto{
+
+    color: rgb(231, 231, 15);
+}
+      .left{
+        font-size: 1.5rem;
+        color: azure;
+      }
+
+      .postion{
+        border: 2px solid black;
+        font-size: 15px;
+        position: absolute;
+        top: 356%;
+        left: 100px;
+        padding: 20px 50px;
+        background-color: white;
+      }.col{
+        color: #e76b4f;
+        font-size:40px ;
+      }
+  .firstSection{
+      background-color: rgb(11, 218, 149);
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+    
+    }
+    .firstSection >div{
+    
+    }
+
+    .hi{
+
+        font-size: 30px;
+        color:rgb(35, 35, 96) ;
+    }
+    
+    .hi2{
+
+        font-size: 60px;
+        color:rgb(35, 35, 96) ;
+        margin-left: 30px;
+    }
+    
+    .hi3{
+
+        font-size: 25px;
+        color:rgb(35, 35, 96) ;
+        margin-left: 30px;
+    }
+    
+    .hi4 {
+
+        font-size: 20px;
+        padding: 15px 30px;
+        margin-left: 25px;
+        margin-top: 40px;
+        border: 2px solid rgba(33, 33, 62, 0.783);
+    }
+    .hi a{
+        padding-left: 10px;
+    }
+
+   .hi5 a{
+    font-size: 20px;
+    margin-right: 10px;
+   }
+    
+
+    .leftsection{
+    
+    font-size: 3rem;
+    
+    }
+     .rightsection img{
+
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+    }
+
+
+    /* .purple{
+        
+        color:rgb(158, 65, 245) ; */
+        .text-gray{
+        color: gray;
+    }
+
+    .secondSection{   
+       background-color: rgb(18, 18, 62);
+      
+      height: 400px;
+      
+      
+    }
+   .firstdiv {
+
+    text-align: center;
+    color: #fdfdfd;
+    padding-top: 30px;
+    
+   }
+    .seconddiv{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+.thirdSection{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.third{
+    margin: 10% 20px;
+}
+.th{
+    font-size: 50px;
+margin-bottom: 15px;
+margin-left: 10px;
+}
+
+.tp {
+
+    font-size: 20px;
+    counter-reset: rgb(184, 54, 54);
+    margin-left: 30px;
+}
+
+
+.fourthSection{
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+.orange{
+    font-size: 20px;
+    color: #e76b4f;
+}
+.four{
+
+    font-size: 70px;
+    color: rgb(51, 37, 100);
+}
+.four1{
+    font-size: 20px;
+    color: #948f8f;
+    margin-top: 20px;
+}
+.skills-wrapper {
+    background-image: url("https://shtheme.com/demosd/trito/wp-content/uploads/2023/07/1-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3–3 boxes ka grid */
+  gap: 16px;
+  background: #e76b4f;                    /* orange section bg */
+  padding: 40px;
+}
+
+
+.skill:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+.skill {
+  background: #fdfdfd;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+
+  /* yahan se size badhega */
+  padding: 18px 30px;      /* andar ki spacing zyada */
+  font-size: 18px;         /* text bada */
+  min-width: 140px;        /* box ki minimum चौड़ाई */
+  text-align: center;
+
+  font-family: sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background: #e76b4f;
+  padding: 60px;          /* pehle se zyada */
+}
+ .fiveSection{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+} 
+.five{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10%;
+}
+.fi{
+    font-size: 60px;
+    color: rgb(62, 62, 116);
+    text-decoration:dotted;
+}
+.fiv{
+
+    font-size: 30px;
+     color: rgb(62, 62, 116);
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+.sixSection{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("https://shtheme.com/demosd/trito/wp-content/uploads/2023/07/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+}
+
+.is{
+
+    font-size: 20px;
+    text-align: center;
+      color: #e76b4f;
+      
+       display: flex; 
+       
+}
+.ii{
+    /* margin-top: -5px; */
+    margin: -5px 10px;
+}
+.si{
+    font-size: 80px;
+        color: rgb(66, 66, 121);
+}
+.po{
+
+    font-size: 25px;
+    color: rgb(80, 80, 131);
+    margin-top: 20px;
+}
+.me{
+border: none;
+ background-color: rgb(45, 45, 110);
+ margin-top: 30px;
+ padding: 20px 40px;
+ color: white;
+}
+.saven{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imge img{
+
+    margin-top: 100px;
+    margin-left: 40%;
+    /* font-size: 50px; */
+    height: 450px;
+}
+
+.saven2{
+
+    
+    margin: 30px 40px;
+    padding: 30px 40px;
+}
+
+
+.saven3{
+
+    font-size: 30px;
+    margin-top:105px;
+    margin-right: 80px;
+    
+    color: rgb(12, 12, 13);
+}
+.saven4{
+    font-size: 20px;
+     color: rgb(17, 17, 18);
+     margin-top: 50px;
+     margin-bottom: 50px;
+     margin-right: 100px;
+}
+.saven{
+    font-size: 25px;
+}
+/* ===== MAIN LAYOUT ===== */
+/* ===== MAIN LAYOUT ===== */
+.ai{
+    display: flex;
+    justify-content: center;
+}
+.ai article{
+    display: flex;
+justify-content: space-evenly;
+}
+.ai article div {
+
+      border: 2px solid black;
+    margin: 10px;
+    
+    
+       overflow: hidden;
+}
+.ai  article div{
+    overflow: hidden;
+} 
+.ai article div img:hover{
+    
+       scale: 1.3;
+    transition:scale 1s; 
+}
+.ml{
+    display: flex;
+    justify-content: center;
+}
+
+.ml article{
+    display: flex;
+justify-content: space-evenly;
+}
+.ml article div {
+
+      border: 2px solid black;
+    margin: 10px;
+    height: 500px;
+    width: 510px;
+       overflow: hidden;
+}
+.ml  article div{
+    overflow: hidden;
+} 
+.ml article div img:hover{
+    
+       scale: 1.3;
+    transition:scale 1s; 
+} 
+
+/* .thirty{
+    display: flex;
+    justify-content: center;
+}
+.thirty.thirty1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.thirty.thirty1 div img{
+
+    border: 2px;
+    
+} */
+/* :hover{
+ 
+       scale: 1.3;
+    transition:scale 1s; 
+} */
+
+
+     
+
+
+.nine{
+margin-top: 30px;
+    text-align: center;
+}
+.nine2{
+
+    font-size: 20px;
+    text-align: center;
+      color: #e76b4f;
+      
+       display: flex; 
+       
+}
+.ni{
+    /* margin-top: -5px; */
+    margin: -5px 10px;
+    
+}
+.nine3 {
+font-size: 30px;
+margin-top: 40px;
+color: rgb(55, 55, 123);
+}
+.ten1{
+margin-left: 100px;
+margin-right: 100px;
+}
+.ten2{
+font-size: 25px;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(55, 55, 123);
+    color: white;
+
+}
+.ten3{
+
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+text-align: end;
+}
+.eleven{
+background-image: url("https://shtheme.com/demosd/trito/wp-content/uploads/2023/07/1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px;
+
+}
+.ele .eleven1{
+margin: 50px 0px;
+text-align: center;
+
+}
+.eleven1 h1{
+
+    font-size: 60px;
+    color: rgb(55, 55, 123);
+}
+.eleven1 button{
+    border: 2px solid black;
+font-size: 20px;
+    padding: 15px 40px;
+     color: rgb(55, 55, 123);
+    overflow: hidden;
+}
+.eleven1 button:hover{
+ 
+           scale: 1.3;
+    transition:scale 1s; 
+      color: white;
+      background-color:  rgb(55, 55, 123);
+}
+
+
+
+
+.tweleve1{
+
+    margin: 120px 40px 40px 130px;
+}
+
+.twe
+{
+ font-size: 25px;
+    text-align: center;
+      color: #e76b4f;
+      
+       display: flex; 
+       
+}
+.twe1{
+    /* margin-top: -5px; */
+    margin: -5px 10px;
+    
+}
+.twe2{
+
+    font-size: 55px;
+    color:rgb(55, 55, 123)  ;
+}
+  .thirty {
+     display: flex;
+    justify-content: center; 
+}
+
+.thirty article .src{
+       border: 2px solid black; 
+ border-radius: 40%;  
+   object-fit: cover;
+     object-position: center; 
+     gap: 20px;
+     overflow: hidden;
+     height: 300px;
+   /* width: 450px; */
+   margin: 20px;
+}
+.thirty .src img{
+     /* border: 2px solid black; */
+/* border-radius: 40%;  */
+  /* object-fit: cover;
+     object-position: center;    */
+         gap: 20px;
+       width: 450px; 
+      
+     /* margin: 30px; */
+     
+} 
+.thirty article div img:hover{
+    
+       scale: 1.3;
+    transition:scale 1s; 
+} 
+
+
+ .jim{
+
+margin-left: 100px;
+font-size: 25px;
+margin-top: 30px;
+border-bottom: 1px solid rgb(157, 156, 156) ;
+margin-bottom: 30px;
+ }
+.may{
+    margin-left: 100px;
+    color: #8c8888;
+    
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+/* 
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+     object-position: center;   */
+
+
+
+  
+.form{
+
+    display: flex;
+    justify-content: center;
+   
+    background-image: url("https://shtheme.com/demosd/trito/wp-content/uploads/2023/07/background-1.jpg");
+padding: 30px;
+}
+
+.form1{
+    margin-right: 10%;
+    margin-top: 65px;
+} 
+.form2
+{
+ font-size: 20px;
+    text-align: center;
+      color: #e76b4f;
+      
+       display: flex; 
+       
+}
+.fo1{
+    /* margin-top: -5px; */
+    margin: -5px 10px;
+    
+}
+.form3{
+
+    font-size: 50px;
+    color: white;
+}
+.cal{
+    font-size: 25px;
+    color: #a8a6a6;
+    
+}
+.under{
+
+    font-size: 35px;
+    color: #e2e1e1;
+}
+.all{
+     background-color: rgb(61, 61, 106); 
+    border: none;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
+.form5{
+
+    background-color: white;
+    border: 1px solid black;
+    padding: 120px 120px;
+    margin: 70px;
+}
+  
+.form6 input{
+
+border: 3px solid black;
+padding: 10px 70px;
+font-size: 20px;
+color: #525050;
+}
+.form6 textarea {
+border: 3px solid black;
+padding: 20px 95px;
+font-size: 15px;
+
+}
+.form6 button{
+font-size: 20px;
+padding: 15px 110px ;
+background-color: #13e9d7;
+color: rgb(44, 44, 90);
+}
